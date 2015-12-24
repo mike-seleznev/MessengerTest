@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2734EB011C2439EC00C6DDCC /* test_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734EB001C2439EC00C6DDCC /* test_image.png */; };
+		277E58671C22B4A500544A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E58661C22B4A500544A32 /* main.m */; };
+		277E586A1C22B4A500544A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E58691C22B4A500544A32 /* AppDelegate.m */; };
+		277E586D1C22B4A500544A32 /* COMessTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E586C1C22B4A500544A32 /* COMessTestViewController.m */; };
+		277E58701C22B4A500544A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277E586E1C22B4A500544A32 /* Main.storyboard */; };
+		277E58721C22B4A500544A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277E58711C22B4A500544A32 /* Assets.xcassets */; };
+		277E58751C22B4A500544A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277E58731C22B4A500544A32 /* LaunchScreen.storyboard */; };
+		277E58821C22B62000544A32 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277E587C1C22B62000544A32 /* Bolts.framework */; };
+		277E58831C22B62000544A32 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 277E587D1C22B62000544A32 /* FacebookSDKStrings.bundle */; };
+		277E58841C22B62000544A32 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277E587E1C22B62000544A32 /* FBSDKCoreKit.framework */; };
+		277E58851C22B62000544A32 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277E587F1C22B62000544A32 /* FBSDKLoginKit.framework */; };
+		277E58861C22B62000544A32 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277E58801C22B62000544A32 /* FBSDKMessengerShareKit.framework */; };
+		277E58871C22B62000544A32 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277E58811C22B62000544A32 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2734EB001C2439EC00C6DDCC /* test_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_image.png; sourceTree = "<group>"; };
+		277E58621C22B4A500544A32 /* MessengerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277E58661C22B4A500544A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		277E58681C22B4A500544A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		277E58691C22B4A500544A32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		277E586B1C22B4A500544A32 /* COMessTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COMessTestViewController.h; sourceTree = "<group>"; };
+		277E586C1C22B4A500544A32 /* COMessTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COMessTestViewController.m; sourceTree = "<group>"; };
+		277E586F1C22B4A500544A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277E58711C22B4A500544A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277E58741C22B4A500544A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277E58761C22B4A500544A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277E587C1C22B62000544A32 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../FacebookSDKs-iOS-20151111/Bolts.framework"; sourceTree = "<group>"; };
+		277E587D1C22B62000544A32 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "../FacebookSDKs-iOS-20151111/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
+		277E587E1C22B62000544A32 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		277E587F1C22B62000544A32 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		277E58801C22B62000544A32 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+		277E58811C22B62000544A32 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-20151111/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277E585F1C22B4A500544A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277E58861C22B62000544A32 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				277E58821C22B62000544A32 /* Bolts.framework in Frameworks */,
+				277E58871C22B62000544A32 /* FBSDKShareKit.framework in Frameworks */,
+				277E58841C22B62000544A32 /* FBSDKCoreKit.framework in Frameworks */,
+				277E58851C22B62000544A32 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277E58591C22B4A500544A32 = {
+			isa = PBXGroup;
+			children = (
+				277E588D1C22B77500544A32 /* Frameworks */,
+				277E58641C22B4A500544A32 /* MessengerTest */,
+				277E58631C22B4A500544A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277E58631C22B4A500544A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277E58621C22B4A500544A32 /* MessengerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277E58641C22B4A500544A32 /* MessengerTest */ = {
+			isa = PBXGroup;
+			children = (
+				277E58681C22B4A500544A32 /* AppDelegate.h */,
+				2734EB001C2439EC00C6DDCC /* test_image.png */,
+				277E58691C22B4A500544A32 /* AppDelegate.m */,
+				277E586B1C22B4A500544A32 /* COMessTestViewController.h */,
+				277E586C1C22B4A500544A32 /* COMessTestViewController.m */,
+				277E586E1C22B4A500544A32 /* Main.storyboard */,
+				277E58711C22B4A500544A32 /* Assets.xcassets */,
+				277E58731C22B4A500544A32 /* LaunchScreen.storyboard */,
+				277E58761C22B4A500544A32 /* Info.plist */,
+				277E58651C22B4A500544A32 /* Supporting Files */,
+			);
+			path = MessengerTest;
+			sourceTree = "<group>";
+		};
+		277E58651C22B4A500544A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				277E58661C22B4A500544A32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		277E588D1C22B77500544A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277E587C1C22B62000544A32 /* Bolts.framework */,
+				277E587D1C22B62000544A32 /* FacebookSDKStrings.bundle */,
+				277E587E1C22B62000544A32 /* FBSDKCoreKit.framework */,
+				277E587F1C22B62000544A32 /* FBSDKLoginKit.framework */,
+				277E58801C22B62000544A32 /* FBSDKMessengerShareKit.framework */,
+				277E58811C22B62000544A32 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277E58611C22B4A500544A32 /* MessengerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277E58791C22B4A500544A32 /* Build configuration list for PBXNativeTarget "MessengerTest" */;
+			buildPhases = (
+				277E585E1C22B4A500544A32 /* Sources */,
+				277E585F1C22B4A500544A32 /* Frameworks */,
+				277E58601C22B4A500544A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessengerTest;
+			productName = MessengerTest;
+			productReference = 277E58621C22B4A500544A32 /* MessengerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277E585A1C22B4A500544A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "XCDS International";
+				TargetAttributes = {
+					277E58611C22B4A500544A32 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 277E585D1C22B4A500544A32 /* Build configuration list for PBXProject "MessengerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277E58591C22B4A500544A32;
+			productRefGroup = 277E58631C22B4A500544A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277E58611C22B4A500544A32 /* MessengerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277E58601C22B4A500544A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277E58751C22B4A500544A32 /* LaunchScreen.storyboard in Resources */,
+				277E58721C22B4A500544A32 /* Assets.xcassets in Resources */,
+				277E58701C22B4A500544A32 /* Main.storyboard in Resources */,
+				2734EB011C2439EC00C6DDCC /* test_image.png in Resources */,
+				277E58831C22B62000544A32 /* FacebookSDKStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277E585E1C22B4A500544A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277E586D1C22B4A500544A32 /* COMessTestViewController.m in Sources */,
+				277E586A1C22B4A500544A32 /* AppDelegate.m in Sources */,
+				277E58671C22B4A500544A32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		277E586E1C22B4A500544A32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277E586F1C22B4A500544A32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		277E58731C22B4A500544A32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277E58741C22B4A500544A32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277E58771C22B4A500544A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		277E58781C22B4A500544A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277E587A1C22B4A500544A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "/Users/mike/tests/FacebookSDKs-iOS-20151111";
+				INFOPLIST_FILE = MessengerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcds.MessengerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		277E587B1C22B4A500544A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "/Users/mike/tests/FacebookSDKs-iOS-20151111";
+				INFOPLIST_FILE = MessengerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcds.MessengerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277E585D1C22B4A500544A32 /* Build configuration list for PBXProject "MessengerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277E58771C22B4A500544A32 /* Debug */,
+				277E58781C22B4A500544A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277E58791C22B4A500544A32 /* Build configuration list for PBXNativeTarget "MessengerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277E587A1C22B4A500544A32 /* Debug */,
+				277E587B1C22B4A500544A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277E585A1C22B4A500544A32 /* Project object */;
+}
