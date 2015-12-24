@@ -24,3 +24,11 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 #Pods/
+
+Bolts.framework/*
+FacebookSDKStrings.bundle/*
+FBAudienceNetwork.framework/*
+FBSDKCoreKit.framework/*
+FBSDKLoginKit.framework/*
+FBSDKMessengerShareKit.framework/*
+FBSDKShareKit.framework/*
