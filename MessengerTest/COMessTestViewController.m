@@ -33,7 +33,7 @@
 
 - (IBAction)shareAction:(id)sender
 {
-    UIImage *image = [UIImage imageNamed:@"test_image.png"];
+    UIImage *image = [UIImage imageNamed:@"test_image_clear1.png"];
     [FBSDKMessengerSharer shareImage:image withOptions:nil];
 }
 @end

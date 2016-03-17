@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2734EB011C2439EC00C6DDCC /* test_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734EB001C2439EC00C6DDCC /* test_image.png */; };
+		276971061C9AFFF50071CA18 /* test_image_clear1.png in Resources */ = {isa = PBXBuildFile; fileRef = 276971051C9AFFF50071CA18 /* test_image_clear1.png */; };
 		277E58671C22B4A500544A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E58661C22B4A500544A32 /* main.m */; };
 		277E586A1C22B4A500544A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E58691C22B4A500544A32 /* AppDelegate.m */; };
 		277E586D1C22B4A500544A32 /* COMessTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E586C1C22B4A500544A32 /* COMessTestViewController.m */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		2734EB001C2439EC00C6DDCC /* test_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_image.png; sourceTree = "<group>"; };
+		276971051C9AFFF50071CA18 /* test_image_clear1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_image_clear1.png; sourceTree = "<group>"; };
 		277E58621C22B4A500544A32 /* MessengerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277E58661C22B4A500544A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		277E58681C22B4A500544A32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		277E58641C22B4A500544A32 /* MessengerTest */ = {
 			isa = PBXGroup;
 			children = (
+				276971051C9AFFF50071CA18 /* test_image_clear1.png */,
 				277E58681C22B4A500544A32 /* AppDelegate.h */,
 				2734EB001C2439EC00C6DDCC /* test_image.png */,
 				277E58691C22B4A500544A32 /* AppDelegate.m */,
@@ -177,6 +180,7 @@
 				277E58751C22B4A500544A32 /* LaunchScreen.storyboard in Resources */,
 				277E58721C22B4A500544A32 /* Assets.xcassets in Resources */,
 				277E58701C22B4A500544A32 /* Main.storyboard in Resources */,
+				276971061C9AFFF50071CA18 /* test_image_clear1.png in Resources */,
 				27BC52241C2C0D0C00D4B7DD /* FacebookSDKStrings.bundle in Resources */,
 				2734EB011C2439EC00C6DDCC /* test_image.png in Resources */,
 			);
